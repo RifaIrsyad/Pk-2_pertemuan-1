@@ -1,68 +1,72 @@
-h1{
-color:red;
-  font-size:40px;
-  font-family:serif;
-  backgroud-color:yellow;
-  height:80px;
-  width:400px;
+h1 {
+  color: red;
+  font-size: 40px;
+  font-family: serif;
+  background-color: yellow;
+  height: 80px;
+  width: 400px;
 }
 
-p{
-color:#0000ff;
-  font-size:20px;
-  font-family:"Lucida Grande";
+p {
+  color: #0000ff;
+  font-size: 20px;
+  font-family: "Lucida Grande";
 }
 
-img{
-height:50px;
-  width:70px;
+img {
+  height: 50px;
+  width: 70px;
 }
 
-li{
-  color:red;
+li {
+  color: red;
 }
 
-.selected{
-  color:red;
+.selected {
+  color: red;
 }
 
-.header{
-  background-color:#26d0c9;
-  color:#fff;
-  height:90px;
-  
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+  padding: 40px; /* Moved the padding property inside .header */
 }
 
-
-  padding: 40px;
-  }
 .footer-logo {
   font-size: 32px;
   float: left;
-    }
-.footer-list{
+}
+
+.footer-list {
   float: right;
 }
-  .footer-list li{
+
+.footer-list li {
   padding-bottom: 20px;
-}    
+}
 
 .main {
   padding: 100px 80px;
 }
+
 .copy-container h1 {
-  font-size; 140px;
+  font-size: 140px; /* Fixed the semicolon in font-size property */
 }
+
 .copy-container h2 {
   font-size: 60px;
 }
+
 .copy-container span {
   color: #ff4a4a;
 }
 
 .contents {
-  heigt: 500px;
+  height: 500px; /* Corrected the 'heigt' typo to 'height' */
   margin-top: 100px;
 }
+
 .section-title {
-  border-bottom: 2px solid #
+  border-bottom: 2px solid #000; /* Added a color for the border */
+}
